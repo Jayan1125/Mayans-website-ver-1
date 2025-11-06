@@ -1,0 +1,453 @@
+ /* 1. INLINED GOOGLE FONTS (Inter) */
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_FM9qMw4DOCIIFM_dk.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      /* 2. INLINED FONT AWESOME v6.5.2 (Core CSS) */
+      /*!
+      * Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
+      * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+      * Copyright 2024 Fonticons, Inc.
+      */
+      :root, :host {
+        --fa-font-family-classic: "Font Awesome 6 Free";
+        --fa-font-weight-classic: 900;
+      }
+      .fa, .fa-classic, .fas, .fa-solid, .far, .fa-regular, .fal, .fa-light, .fat, .fa-thin, .fa-duotone, .fab, .fa-brands {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: var(--fa-display, inline-block);
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-rendering: auto;
+      }
+      .fa-classic, .fas, .fa-solid, .far, .fa-regular, .fal, .fa-light, .fat, .fa-thin, .fa-duotone {
+        font-family: "Font Awesome 6 Free";
+      }
+      .fab, .fa-brands {
+        font-family: "Font Awesome 6 Brands";
+      }
+      .fa-solid, .fas {
+        font-weight: 900;
+      }
+      .fa-regular, .far {
+        font-weight: 400;
+      }
+      .fa-brands, .fab {
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Font Awesome 6 Free";
+        font-style: normal;
+        font-weight: 900;
+        font-display: block;
+        src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.woff2) format("woff2"), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: "Font Awesome 6 Brands";
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+        src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2) format("woff2"), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: "Font Awesome 6 Free";
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+        src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.woff2) format("woff2"), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.ttf) format("truetype");
+      }
+      .fa-compass:before { content: "\f14e"; }
+      .fa-tasks:before { content: "\f0ae"; }
+      .fa-shield-alt:before { content: "\f3ed"; }
+      .fa-certificate:before { content: "\f0a3"; }
+      .fa-handshake:before { content: "\f2b5"; }
+      .fa-code:before { content: "\f121"; }
+      .fa-phone-alt:before { content: "\f879"; }
+      .fa-envelope:before { content: "\f0e0"; }
+      .fa-linkedin:before { content: "\f08c"; }
+      .fa-arrow-right:before { content: "\f061"; }
+      .ml-3 { margin-left: 0.75rem; }
+      .mr-3 { margin-right: 0.75rem; }
+      .mt-1 { margin-top: 0.25rem; }
+
+      /* 3. COMPILED TAILWIND CSS (Generated from your HTML) */
+      *, ::before, ::after {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        border-color: #e5e7eb;
+      }
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        -moz-tab-size: 4;
+        tab-size: 4;
+        font-family: 'Inter', sans-serif;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+      }
+      body {
+        margin: 0;
+        line-height: inherit;
+      }
+      h1, h2, h3, p, ul {
+        margin: 0;
+        padding: 0;
+      }
+      h1, h2, h3 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      .sticky {
+        position: sticky;
+      }
+      .top-0 {
+        top: 0;
+      }
+      .z-50 {
+        z-index: 50;
+      }
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .mt-1 {
+        margin-top: 0.25rem;
+      }
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+      .mb-2 {
+        margin-bottom: 0.5rem;
+      }
+      .mt-4 {
+        margin-top: 1rem;
+      }
+      .mt-8 {
+        margin-top: 2rem;
+      }
+      .mb-8 {
+        margin-bottom: 2rem;
+      }
+      .mt-10 {
+        margin-top: 2.5rem;
+      }
+      .mb-12 {
+        margin-bottom: 3rem;
+      }
+      .mt-12 {
+        margin-top: 3rem;
+      }
+      .mt-16 {
+        margin-top: 4rem;
+      }
+      .inline-block {
+        display: inline-block;
+      }
+      .block {
+        display: block;
+      }
+      .flex {
+        display: flex;
+      }
+      .grid {
+        display: grid;
+      }
+      .hidden {
+        display: none;
+      }
+      .h-10 {
+        height: 2.5rem;
+      }
+      .w-auto {
+        width: auto;
+      }
+      .max-w-2xl {
+        max-width: 42rem;
+      }
+      .max-w-4xl {
+        max-width: 56rem;
+      }
+      .max-w-6xl {
+        max-width: 72rem;
+      }
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+      .items-start {
+        align-items: flex-start;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .gap-8 {
+        gap: 2rem;
+      }
+      .gap-10 {
+        gap: 2.5rem;
+      }
+      .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+        margin-left: 0.5rem;
+      }
+      .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+        margin-left: 0.75rem;
+      }
+      .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+        margin-left: 1rem;
+      }
+      .space-y-3 > :not([hidden]) ~ :not([hidden]) {
+        margin-top: 0.75rem;
+      }
+      .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+        margin-top: 1rem;
+      }
+      .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+        margin-top: 1.5rem;
+      }
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      .rounded-xl {
+        border-radius: 0.75rem;
+      }
+      .border {
+        border-width: 1px;
+      }
+      .border-b {
+        border-bottom-width: 1px;
+      }
+      .border-t-4 {
+        border-top-width: 4px;
+      }
+      .border-gray-700 {
+        border-color: rgb(55 65 81);
+      }
+      .bg-\[\#0d1117\]\/95 {
+        background-color: rgb(13 17 23 / 0.95);
+      }
+      .bg-\[\#0d1117\] {
+        background-color: #0d1117;
+      }
+      .p-6 {
+        padding: 1.5rem;
+      }
+      .p-8 {
+        padding: 2rem;
+      }
+      .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+      }
+      .py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+      .py-16 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+      .pt-20 {
+        padding-top: 5rem;
+      }
+      .pb-16 {
+        padding-bottom: 4rem;
+      }
+      .pb-3 {
+        padding-bottom: 0.75rem;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+      .text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      .text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+      .text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+      }
+      .text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .font-extrabold {
+        font-weight: 800;
+      }
+      .font-medium {
+        font-weight: 500;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .tracking-tighter {
+        letter-spacing: -0.05em;
+      }
+      .tracking-wider {
+        letter-spacing: 0.05em;
+      }
+      .text-gray-300 {
+        color: rgb(209 213 219);
+      }
+      .text-gray-400 {
+        color: rgb(156 163 175);
+      }
+      .text-gray-500 {
+        color: rgb(107 114 128);
+      }
+      .text-white {
+        color: rgb(255 255 255);
+      }
+      .hover\:text-white:hover {
+        color: rgb(255 255 255);
+      }
+      .leading-tight {
+        line-height: 1.25;
+      }
+      .shadow-lg {
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      }
+      .shadow-xl {
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+      }
+      .shadow-2xl {
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+      }
+      .shadow-teal-500\/30 {
+        box-shadow: 0 10px 15px -3px rgb(20 184 166 / 0.3), 0 4px 6px -4px rgb(20 184 166 / 0.3);
+      }
+      .backdrop-blur-sm {
+        backdrop-filter: blur(4px);
+      }
+      .transition {
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+      }
+      .duration-150 {
+        transition-duration: 150ms;
+      }
+      .duration-300 {
+        transition-duration: 300ms;
+      }
+      .ease-in-out {
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      @media (min-width: 640px) {
+        .sm\:h-12 {
+          height: 3rem;
+        }
+        .sm\:px-6 {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+        .sm\:text-7xl {
+          font-size: 4.5rem;
+          line-height: 1;
+        }
+      }
+      @media (min-width: 768px) {
+        .md\:grid-cols-3 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+      @media (min-width: 1024px) {
+        .lg\:grid-cols-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .lg\:px-8 {
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+      }
+
+      /* 4. CUSTOM & FALLBACK STYLES (Fixed) */
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0d1117;
+        color: #c9d1d9; /* Default text color for dark mode */
+      }
+      .antialiased {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom class definitions */
+      .text-primary-accent {
+        color: #14b8a6; /* Teal 500 */
+      }
+      .border-primary-accent {
+        border-color: #14b8a6;
+      }
+      .bg-card {
+        background-color: #161b22; /* Dark gray */
+      }
+      .btn-primary {
+        background-color: #14b8a6;
+        color: #ffffff;
+        transition: background-color 0.3s ease-in-out;
+      }
+      .btn-primary:hover {
+        background-color: #0d9488; /* Teal 600 */
+      }
+      .hover-lift {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      .hover-lift:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      }
+      /* Fix for nav links */
+      nav a {
+        color: #c9d1d9;
+      }
+      nav a:hover {
+        color: #14b8a6;
+      }
